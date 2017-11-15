@@ -16,10 +16,10 @@ public class ListWith8Features {
         list.add("ABC");
         list.add("KKSS");
 
-        list.forEach((list1)-> System.out.println(list));
+       list.forEach(list1-> System.out.println(list));
 
 //        method reference
-        list.forEach(System.out::println);
+//        list.forEach(System.out::println);
 
 //        streams
 
